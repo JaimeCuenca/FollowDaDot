@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondosangre">
+
+    <TextView
+    android:id="@+id/gameOver"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="35dp"
+    android:fontFamily="@font/almendra_sc"
+    android:text="GAME OVER"
+    android:textColor="#000000"
+    android:textSize="60dp"
+    android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/almendra_sc"
+        android:text="Points: "
+        android:textAlignment="center"
+        android:textColor="#E62929"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/retry"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:text="RETRY"
+        android:textColor="#000000"
+        android:backgroundTint="#E62929"/>
+</LinearLayout>
